@@ -1,0 +1,141 @@
+body {
+    /*background-image: url(img.png);*/
+    color: #000000;
+    font-family: Lato, sans-serif;
+    background-color: #6dced4;
+  }
+  .container {
+    block;
+    width: 400px;
+    margin: 20px auto 100px;
+    background-color: #8a62e8;
+    padding: 0px 10px 10px 10px;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 0px;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  li * {
+    float: left;
+  }
+  
+  li,
+  h3 {
+    clear: both;
+    list-style: none;
+  }
+  
+  input,
+  button {
+    outline: none;
+  }
+  
+  button {
+    background: none;
+    border: 0px;
+    color: #79f109;
+    font-size: 15px;
+    width: 60px;
+    margin: 10px 0 0;
+    font-family: Lato, sans-serif;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    color: #ec002b;
+  }
+  
+  h3,
+  label[for="new-task"] {
+    color: #080101;
+    font-weight: 700;
+    font-size: 15px;
+    border-bottom: 2px solid #000000;
+    padding: 20px 0 10px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  input[type="text"] {
+    margin: 0;
+    font-size: 18px;
+    line-height: 18px;
+    height: 18px;
+    padding: 10px;
+    border: 1px solid #801d1d;
+    background: #fffefe;
+    border-radius: 6px;
+    font-family: Lato, sans-serif;
+    color: #e7dede;
+  }
+  
+  input[type="text"]:focus {
+    color: #010003;
+  }
+  
+  label[for="new-task"] {
+    display: block;
+    margin: 0 0 20px;
+  }
+  
+  input#new-task {
+    float: left;
+    width: 318px;
+  }
+  
+  p > button:hover {
+    color: #d70032;
+  }
+  
+  li {
+    overflow: hidden;
+    padding: 20px 0;
+    border-bottom: 1px solid #070101;
+  }
+  
+  li > input[type="checkbox"] {
+    margin: 0 10px;
+    position: relative;
+    top: 15px;
+  }
+  
+  li > label {
+    font-size: 18px;
+    line-height: 40px;
+    width: 237px;
+    padding: 0 0 0 11px;
+  }
+  
+  li > input[type="text"] {
+    width: 226px;
+  }
+  
+  li > .delete:hover {
+    color: #cf2323;
+  }
+  
+  #completed-tasks label {
+    text-decoration: line-through;
+    color: #07ffcd;
+  }
+  
+  ul li input[type="text"] {
+    display: none;
+  }
+  
+  ul li.editMode input[type="text"] {
+    display: block;
+  }
+  
+  ul li.editMode label {
+    display: none;
+  }
